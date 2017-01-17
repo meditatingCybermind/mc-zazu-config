@@ -1,0 +1,31 @@
+{
+    "hotkey": "cmd+space",
+    "theme": "tinytacoteam/zazu-playful-theme",
+    "plugins": [
+        "tinytacoteam/zazu-calculator",
+        "tinytacoteam/zazu-file-finder",
+        {
+            "name": "tinytacoteam/zazu-fallback",
+            "variables": {
+                "rootSearches": ["google", "npm", "amazon", "giphy", "gh"]
+            }
+        },
+        "tinytacoteam/zazu-template",
+        "tinytacoteam/zazu-system",
+        {
+            "name": "tinytacoteam/zazu-clipboard",
+            "variables": {
+                "ClipboardKey": "cmd+shift+v"
+            }
+        },
+        {
+            "name": "blainesch/zazu-weather",
+            "variables": {
+                "location": "Raleigh, NC",
+                "degreeType": "C"
+            }
+        },
+        "twang2218/zazu-tldr",
+        "blakek/zazu-emoj"
+    ]
+}
